@@ -13,7 +13,10 @@
             "Stargate"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/stargatedaw/stargate/releases/latest",
+        "regex": "StargateDAW-([\\d.]+)-win64-installer.exe"
+    },
     "autoupdate": {  
         "url": "https://github.com/stargatedaw/stargate/releases/download/release-$version/StargateDAW-$version-win64-installer.exe" 
     }
