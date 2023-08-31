@@ -8,16 +8,14 @@
     "extract_dir": "akorin-0.2.2-win",
     "bin": "Akorin.exe",
     "shortcuts": [
-        [            
+        [
             "Akorin.exe",
             "Akorin"
         ]
     ],
-    "persist": [
-        "voicebank"
-    ],
+    "persist": "voicebank",
     "checkver": "github",
-    "autoupdate": {  
-        "url": "https://github.com/adlez27/akorin/releases/download/v$version/akorin-$version-win.zip" 
+    "autoupdate": {
+        "url": "https://github.com/adlez27/akorin/releases/download/v$version/akorin-$version-win.zip"
     }
 }

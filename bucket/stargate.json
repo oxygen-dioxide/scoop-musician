@@ -8,7 +8,7 @@
     "extract_dir": "program",
     "bin": "stargate.exe",
     "shortcuts": [
-        [            
+        [
             "stargate.exe",
             "Stargate"
         ]
@@ -17,7 +17,7 @@
         "url": "https://github.com/stargatedaw/stargate/releases/latest",
         "regex": "StargateDAW-([\\d.]+)-win64-installer.exe"
     },
-    "autoupdate": {  
-        "url": "https://github.com/stargatedaw/stargate/releases/download/release-$version/StargateDAW-$version-win64-installer.exe" 
+    "autoupdate": {
+        "url": "https://github.com/stargatedaw/stargate/releases/download/release-$version/StargateDAW-$version-win64-installer.exe"
     }
 }

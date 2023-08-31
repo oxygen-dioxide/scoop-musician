@@ -15,7 +15,7 @@
     },
     "bin": "OpenUtau.exe",
     "shortcuts": [
-        [            
+        [
             "OpenUtau.exe",
             "OpenUtau"
         ]
