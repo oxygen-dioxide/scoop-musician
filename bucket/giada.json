@@ -1,0 +1,19 @@
+{
+    "version": "0.25.1",
+    "description": "An open source, minimalistic and hardcore music production tool. Designed for DJs, live performers and electronic musicians.",
+    "homepage": "https://www.giadamusic.com/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/monocasual/giada/releases/download/v0.24.0/giada-v0.24.0-x86_64-windows.zip",
+            "hash": "b3388f9762aa2776d8e7db784f94d542c52e9a66c6ea57aa3353e631fa73b38a"
+        }
+    },
+    "bin": "giada.exe",
+    "shortcuts": [
+        [
+            "giada.exe",
+            "Giada"
+        ]
+    ]
+}
