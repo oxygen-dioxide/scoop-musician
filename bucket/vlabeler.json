@@ -15,5 +15,16 @@
             "vLabeler.exe",
             "vLabeler"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://github.com/sdercolin/vlabeler/releases/latest",
+        "regex": "tag/([\\d.]+-[a-z\\d]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sdercolin/vlabeler/releases/download/$version/vlabeler-$version-win64.zip"
+            }
+        }
+    }
 }
