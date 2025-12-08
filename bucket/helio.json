@@ -1,16 +1,16 @@
 {
-    "version": "3.16",
+    "version": "3.17",
     "description": "free and open-source music sequencer",
     "homepage": "https://helio.fm/",
     "license": "GPL-3.0-only",
     "architecture": {
         "32bit": {
-            "url": "https://ci.helio.fm/helio-3.16-x32.zip",
-            "hash": "bc40eecbde604eee8745505c3ecdc2d9e62566477462845c7fb677cfd715bcc7"
+            "url": "https://ci.helio.fm/helio-3.17-x32.zip",
+            "hash": "4fda266dc0be22f551ac9075f676f5f017e9a8f12a80e6710d15130ebf54c430"
         },
         "64bit": {
-            "url": "https://ci.helio.fm/helio-3.16-x64.zip",
-            "hash": "117bb09f5b8309e1a2dc7f3c2bd399da9093e147b222cfebbf5d9dcc4e110ddd"
+            "url": "https://ci.helio.fm/helio-3.17-x64.zip",
+            "hash": "ec947a0138f469031490f49dcf2d96d30364126f40f75503992853c2f68d85f9"
         }
     },
     "bin": "Helio.exe",
